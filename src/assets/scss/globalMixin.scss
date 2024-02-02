@@ -1,0 +1,63 @@
+// 主要色 => 主色 浮动色 点击色 禁用色 背景色 线条色 卡片色块 黑 白 灰 
+$color-primary:#1149c4;
+$color-float: #2A5CCA;
+$color-tap: #0F41AF;
+$color-disabled: #BCCAE7;
+$color-backdrop: #F8F9FB;
+$color-line: #DFE5EF;
+$color-card: #E1E4F0;
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-grey: #C0C4CC;
+
+
+// 辅助色 => 警告 报警 成功 失败 异常 常用
+$color-red: #FF3015;
+$color-yellow: #F5A623;
+$color-green: #18B769;
+$color-cyan: #14ABBC;
+$color-purple: #9F61EA;
+$color-bluishViolet: #5A82EF;
+
+// 字体颜色 => 主要色 点击色 表头色 突出色 不重要色 说明色 禁用色 
+$font-color-primary: #202124;
+$font-color-tap: #1149C4;
+$font-color-table: #5A5D62;
+$font-color-conspicuous: #333333;
+$font-color-assistant: #666A75;
+$font-color-content: #ADB0B8;
+$font-color-disabled: #9196A5;
+
+// 图表颜色
+$table-color-yellow: #B69860;
+$table-color-green: #5EA7C4;
+$table-color-blue: #5A82EF;
+$table-color-orange: #EF985A;
+$table-color-bluishBlue: #228FC6;
+$table-color-green: #2C9942;
+
+// 其他颜色 => 图标颜色
+$icon-color:#7B7F88;
+
+// 字体大小 => 特殊字体 标题 副标题 正文 辅助
+$font-size-max: 24px;
+$font-size-large: 18px;
+$font-size-middle: 16px;
+$font-size-base: 14px;
+$font-size-small: 12px;
+$font-size-min: 10px;
+
+// 字体粗细 => 常用 细体 粗体
+$font-weight-primary: 500;
+$font-weight-light: 300;
+$font-weight-heavy: 700;
+
+// 全局配置 => 圆角 组件栏宽度 配置栏宽度 间距 线条 阴影
+$unify-radius: 6px;
+$unify-aside: 280px;
+$unify-side: 380px;
+$unify-interval: 10px;
+$unify-line: solid 1px $color-line;
+$unify-shadow: 0px 12px 32px 4px rgba(0, 0, 0, .04),
+0px 8px 20px rgba(0, 0, 0, .08);
+
