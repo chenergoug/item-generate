@@ -1,5 +1,5 @@
 <template>
-  <div class="app-side">side</div>
+  <div class="app_side">side</div>
 </template>
 
 <script setup lang="ts"></script>

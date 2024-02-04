@@ -52,12 +52,27 @@ $font-weight-primary: 500;
 $font-weight-light: 300;
 $font-weight-heavy: 700;
 
-// 全局配置 => 圆角 组件栏宽度 配置栏宽度 间距 线条 阴影
+// 全局配置 => 圆角 组件栏宽度 配置栏宽度 header高度 行内高度 间距 线条 阴影
 $unify-radius: 6px;
 $unify-aside: 280px;
 $unify-side: 380px;
+$unify-header: 60px;
+$unify-height: 40px;
 $unify-interval: 10px;
 $unify-line: solid 1px $color-line;
 $unify-shadow: 0px 12px 32px 4px rgba(0, 0, 0, .04),
 0px 8px 20px rgba(0, 0, 0, .08);
+
+// 鼠标样式 => 帮助 加载 十字 禁用 放大 缩小 手掌 抓取中 平移 宽度可调 高度可调
+$cursor-help: help;
+$cursor-wait: wait;
+$cursor-crosshair: crosshair;
+$cursor-notAllowed: not-allowed;
+$cursor-zoomIn: zoom-in;
+$cursor-zoomOut:zoom-out;
+$cursor-grab: grab;
+$cursor-grabbing: grabbing;
+$cursor-allScroll: all-scroll;
+$cursor-colResize: col-resize;
+$cursor-rowResize: row-resize;
 

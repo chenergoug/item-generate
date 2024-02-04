@@ -1,11 +1,9 @@
 <template>
   <div class="container">
-    <div class="container-body">
+    <app-header />
+    <div class="container_body">
       <app-aside />
-      <div class="container-init">
-        <app-header />
-        <app-main />
-      </div>
+      <app-main />
       <app-side />
     </div>
     <app-footer />

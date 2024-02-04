@@ -20,42 +20,45 @@ html,body {
   display: flex;
   flex-direction: column;
 
-  .container-body {
+  .app_header {
+    height: $unify-header;
+    line-height: $unify-header;
+    background: $color-white;
+    border-bottom: $unify-line;
+  }
+
+  .container_body {
     flex: 1;
+    height: 0;
     display: flex;
     flex-direction: row;
 
-    .app-aside {
+    .app_aside {
+      height: 100%;
       width: $unify-aside;
+      display: flex;
       overflow-y: auto;
-      padding: $unify-interval;
+      flex-direction: column;
       background: $color-white;
       border-right: $unify-line;
-      height: calc(100% - $unify-interval*2);
     }
   
   
-    .container-init {
+    .container_init {
       flex: 1;
       display: flex;
       flex-direction: column;
       background: $color-white;
+    }
 
-      .app-header {
-        height: 60px;
-        line-height: 60px;
-        padding: $unify-interval;
-        background: $color-white;
-        border-bottom: $unify-line;
-      }
-
-      .app-main {
-        flex: 1;
-        padding: $unify-interval;
-      }
+    .app_main {
+      flex: 1;
+      padding: $unify-interval;
+      background: url('../image/icon.png') no-repeat 50% 50%;
+      background-size:  auto 60%;
     }
     
-    .app-side {
+    .app_side {
       width: $unify-side;
       overflow-y: auto;
       padding: $unify-interval;
@@ -65,7 +68,7 @@ html,body {
     }
   }
 
-  .app-footer {
+  .app_footer {
     height: 40px;
     line-height: 40px;
     padding: $unify-interval;
