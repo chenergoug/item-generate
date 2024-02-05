@@ -1,9 +1,9 @@
 <template>
   <div class="app_main">
-    <draggable class="app_main-dragArea" :list="mainComponent" group="people" @change="log" item-key="label">
+    <draggable class="main_dragArea" :list="mainComponent" group="people" @change="log" item-key="label">
       <template #item="{ element }">
-        <div class="list-group-item">
-          {{ element.__config__.label }}
+        <div class="main_dragArea-item">
+          <dynamic-module :conf="element" />
         </div>
       </template>
     </draggable>
@@ -11,17 +11,26 @@
 </template>
 
 <script setup lang="ts">
-import draggable from 'vuedraggable'
 import { ref } from 'vue'
+import Bus from '../../utils/bus.ts'
+import draggable from 'vuedraggable'
+import DynamicModule from '../../components/render'
+
 const mainComponent = ref([])
 
-const log = (evt) => {
-  console.log('2', evt)
+const fn = (data: any) => {
+  mainComponent.value.push(data)
+}
+
+Bus.on('on-click', fn)
+
+const log = (evt: any) => {
+  // console.log('2', evt)
 }
 </script>
 
 <style lang="scss" scoped>
-.app_main-dragArea {
+.main_dragArea {
   width: 100%;
   height: 100%;
 }

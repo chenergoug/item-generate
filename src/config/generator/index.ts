@@ -1,5 +1,5 @@
 // 表单属性【右面板】
-export const formConf = {
+ const formConfig = {
   formRef: 'elForm',
   formModel: 'formData',
   size: 'medium',
@@ -662,5 +662,5 @@ const asideComponents =  [{
   data:layoutComponents
   }]
 
-export {asideComponents}
+export { asideComponents, formConfig }
 
