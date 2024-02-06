@@ -1,0 +1,19 @@
+[{
+  "id": 10002,
+  "name": "ElFormItem",
+  "__config__":{
+    "name":"",
+    "size": "default",
+    "rules": "",
+    "model":"",
+    "inline": false,
+    "labelWidth": 100,
+    "required": false,
+    "disabled":false,
+    "showMessage": true,
+    "inlineMessage": false,
+    "labelPosition":"right",
+    "hideRequiredAsterisk":false,
+    "requireAsteriskPosition":"left"
+  }
+}]

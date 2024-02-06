@@ -1,4 +1,11 @@
-export function deepClone(obj: any): any {
+ export function generateId(key?:string) {
+   const time = (new Date()).getTime()
+   if (key) {
+     return key + time
+   }
+  return time
+}
+ export function deepClone(obj: any): any {
   const _toString = Object.prototype.toString;
 
   // null, undefined, non-object, function

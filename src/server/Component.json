@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Form 表单组件",
+    "data": [
+      {
+        "__item__": {
+          "id": 100021,
+          "label": "Input 输入框",
+          "tag": "el-input",
+          "parent":"elFormItem",
+          "parentId": 10002
+        },
+        "__config__": {
+          "name": "fileId123456789",
+          "type": "text",
+          "maxlength": null,
+          "minlength": null,
+          "showNumber": false,
+          "placeholder": "",
+          "clearable": false,
+          "showPassword": false,
+          "disabled": false,
+          "prefix": "",
+          "suffix": "",
+          "prefixIcon": "",
+          "suffixIcon": "",
+          "rows": null,
+          "autosize": false
+        },
+        "__vModel__":"fileId123456789"
+      }
+    ]
+  }
+]
